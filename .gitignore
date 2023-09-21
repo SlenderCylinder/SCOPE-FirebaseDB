@@ -1,0 +1,18 @@
+# Ignore Node.js build and dependency directories
+/node_modules/
+/dist/
+/build/
+
+# Ignore environment files
+.env
+
+# Ignore Firebase service account JSON files (should not be committed)
+scope-dashboard-default-rtdb-export.json
+scope-dashboard-firebase-adminsdk-9jwjv-88ea5354a7.json
+
+# Ignore IDE or text editor specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log

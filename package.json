@@ -1,0 +1,27 @@
+{
+  "name": "scope-firebasedb",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "App defining endpoints to interface with firebase storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlenderCylinder/SCOPE-FirebaseDB.git"
+  },
+  "author": "Chamith Wakista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SlenderCylinder/SCOPE-FirebaseDB/issues"
+  },
+  "homepage": "https://github.com/SlenderCylinder/SCOPE-FirebaseDB#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.4.0",
+    "firebase-admin": "^11.10.1"
+  }
+}
